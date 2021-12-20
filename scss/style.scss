@@ -1,0 +1,12 @@
+@use 'custom';
+
+//import the components
+@use 'components/typography';
+
+// import the sections
+@use 'sections/navbar';
+@use 'sections/home';
+@use 'sections/offer';
+@use 'sections/aboutMe';
+@use 'sections/footer';
+
