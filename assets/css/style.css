@@ -4414,7 +4414,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(131, 80, 29, 0.7);
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -4466,7 +4466,7 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(131, 80, 29, 0.7);
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
@@ -4475,7 +4475,7 @@ textarea.form-control-lg {
 .card-footer {
   padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 1px solid rgba(131, 80, 29, 0.7);
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -11124,11 +11124,27 @@ body {
   letter-spacing: 1px;
 }
 
+.motto {
+  font-family: "Bonheur Royale", cursive;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #83501d;
+}
+@media (min-width: 992px) {
+  .motto {
+    font-size: 2rem;
+  }
+}
+
 .menu {
   font-size: 1.5rem;
 }
 .menu a i {
   margin-left: 10px;
+}
+
+h1 {
+  color: #83501d;
 }
 
 /*# sourceMappingURL=style.css.map */

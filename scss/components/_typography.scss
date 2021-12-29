@@ -1,4 +1,16 @@
+@use '../custom' as *;
+
 body{
     font-family: 'Urbanist', sans-serif;
     letter-spacing: 1px;
+}
+.motto{
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    color: $primary;
+
+    @include media-breakpoint-up(lg){
+        font-size: 2rem;
+    }
 }
