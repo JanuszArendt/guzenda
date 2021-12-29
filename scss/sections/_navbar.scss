@@ -1,0 +1,10 @@
+@use '../custom' as *;
+
+.menu{
+    font-size: 1.5rem;
+    a{
+        i{
+            margin-left: 10px;
+        }
+    }
+}
