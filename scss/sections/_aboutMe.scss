@@ -1,2 +1,13 @@
 @use '../custom' as *;
 
+#aboutMe{
+    height: 100px;
+    background: $my_gradient;
+    color: #fff;
+
+}
+.aboutMe{
+    p{
+        text-align: justify;
+    }
+}

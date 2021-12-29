@@ -1,5 +1,7 @@
 @use '../custom' as *;
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Urbanist', sans-serif;
     letter-spacing: 1px;
@@ -13,4 +15,8 @@ body{
     @include media-breakpoint-up(lg){
         font-size: 2rem;
     }
+}
+.signature{
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 1.8rem;
 }

@@ -11119,6 +11119,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Urbanist", sans-serif;
   letter-spacing: 1px;
@@ -11134,6 +11138,11 @@ body {
   .motto {
     font-size: 2rem;
   }
+}
+
+.signature {
+  font-family: "Bonheur Royale", cursive;
+  font-size: 1.8rem;
 }
 
 .menu {
@@ -11166,6 +11175,16 @@ h1 {
   color: #83501d;
   font-size: 0.8rem;
   margin-right: 10px;
+}
+
+#aboutMe {
+  height: 100px;
+  background: linear-gradient(149deg, #241c00 0%, #83601d 61%, #c2954d 100%);
+  color: #fff;
+}
+
+.aboutMe p {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
