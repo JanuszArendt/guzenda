@@ -11147,4 +11147,25 @@ h1 {
   color: #83501d;
 }
 
+#offer {
+  height: 100px;
+  background: linear-gradient(149deg, #241c00 0%, #83601d 61%, #c2954d 100%);
+  color: #fff;
+}
+
+.offer h4 {
+  color: #83501d;
+}
+.offer p {
+  font-size: 0.8rem;
+}
+.offer ul li {
+  list-style-type: none;
+}
+.offer ul li i {
+  color: #83501d;
+  font-size: 0.8rem;
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
