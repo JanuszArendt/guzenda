@@ -6,6 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Urbanist:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11129,7 +11130,7 @@ body {
 }
 
 .motto {
-  font-family: "Bonheur Royale", cursive;
+  font-family: "Mea Culpa", cursive;
   font-size: 1.3rem;
   text-align: center;
   color: #83501d;
@@ -11141,7 +11142,7 @@ body {
 }
 
 .signature {
-  font-family: "Bonheur Royale", cursive;
+  font-family: "Mea Culpa", cursive;
   font-size: 1.8rem;
 }
 
@@ -11154,6 +11155,14 @@ body {
 
 h1 {
   color: #83501d;
+}
+
+p {
+  text-align: justify;
+}
+
+.card-body {
+  text-align: center;
 }
 
 #offer {
@@ -11181,10 +11190,6 @@ h1 {
   height: 100px;
   background: linear-gradient(149deg, #241c00 0%, #83601d 61%, #c2954d 100%);
   color: #fff;
-}
-
-.aboutMe p {
-  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
