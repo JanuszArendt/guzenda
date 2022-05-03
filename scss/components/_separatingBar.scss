@@ -1,0 +1,8 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.separating-bar{
+    @include gradient;
+    height: 100px;
+    color: #fff;
+} 

@@ -1,11 +1,14 @@
 @use '../custom' as *;
 
-#contact{
+
+.contact{
     p{
+       margin-left: 20px;
         i{
             color: $primary;
-            margin: 0 1rem 1rem 2rem;
             font-size: 1.2rem;
+            margin-right: 10px;
         }
     }
 }
+

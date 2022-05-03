@@ -2,6 +2,7 @@
 
 //import the components
 @use 'components/typography';
+@use 'components/separatingBar';
 
 // import the sections
 @use 'sections/navbar';
@@ -9,4 +10,6 @@
 @use 'sections/offer';
 @use 'sections/aboutMe';
 @use 'sections/footer';
+@use 'sections/contact';
+
 

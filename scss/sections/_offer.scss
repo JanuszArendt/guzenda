@@ -1,20 +1,21 @@
 @use '../custom' as *;
+@use '../components/mixins' as *;
 
-#offer{
-    height: 100px;
-    background: $my_gradient;
-    color: #fff;
-}  
 .offer{
     h4{
         color: $primary;
     }
     p{
         font-size: 0.8rem;
+        i{
+            color: $primary;
+            font-size: 1rem;
+        }
     }
     ul{
         li{
             list-style-type: none;
+            
             i{
                 color: $primary;
                 font-size: 0.8rem;
@@ -23,3 +24,4 @@
         }
       }
 }
+

@@ -1,0 +1,5 @@
+@use '../custom' as *;
+
+@mixin gradient{
+    background: linear-gradient(149deg, rgba(36,28,0,1) 0%, rgba(131,96,29,1) 61%, rgba(194,149,77,1) 100%);
+}
