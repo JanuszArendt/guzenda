@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_USER_AGENT} Googlebot [OR]
-RewriteRule ^.*$ “http\:\/\/sylwia\.miriada\.eu” [R=301,L]
